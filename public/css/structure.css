@@ -83,3 +83,25 @@ a  {
 .traitVertical {
   border-left: 1px white solid;
 }
+
+
+
+#VIP{
+  margin-top:2%;
+}
+
+.lienLettre{
+  display:inline-block;
+}
+
+.imageVip1{
+  width:120px;
+  height:140px;
+}
+
+
+label{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+}

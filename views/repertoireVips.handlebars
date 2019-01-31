@@ -1,22 +1,3 @@
-<h1> <b>Cliquez sur une lettre : </b>
-
-{{#each lettreVip}}
-<a href="./repertoire/{{this.Initiales}}">
-  {{this.Initiales}}
-</a>
-{{/each}}
-
-
-
-{{#each listeVip}}
-  <div class="vip">
-      <a class="lienLettre" href="/repertoire/vip/{{this.VIP_NUMERO}}">
-          <img src="/images/vip/{{this.PHOTO_ADRESSE}}" al="{{this.VIP_PRENOM}} {{this.VIP_NOM}}">
-          <p>{{this.VIP_PRENOM}} {{this.VIP_NOM}}</p>
-      </a>
-  </div>
-{{/each}}
-
-
+{{>listeNomsVip}}
 
 </h1>
